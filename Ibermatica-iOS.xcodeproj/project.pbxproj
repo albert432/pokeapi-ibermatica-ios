@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C769A667068B551DA75F7DD /* Pods_Ibermatica_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7D9F4D18DC67AE22A16F08B /* Pods_Ibermatica_iOS.framework */; };
+		A114AC39235CC319001AF75D /* Home.strings in Resources */ = {isa = PBXBuildFile; fileRef = A114AC3B235CC319001AF75D /* Home.strings */; };
+		A114AC3E235CC34A001AF75D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114AC3D235CC34A001AF75D /* Extensions.swift */; };
+		A114AC41235CC3E2001AF75D /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114AC40235CC3E2001AF75D /* NetworkProvider.swift */; };
+		A114AC43235CC479001AF75D /* PokemonSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114AC42235CC479001AF75D /* PokemonSpecs.swift */; };
+		A114AC45235CC663001AF75D /* Pokemon+Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114AC44235CC663001AF75D /* Pokemon+Network.swift */; };
+		A114AC48235CC6EF001AF75D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114AC47235CC6EF001AF75D /* Pokemon.swift */; };
+		A114AC4A235CC973001AF75D /* Pokemon+Local.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114AC49235CC973001AF75D /* Pokemon+Local.swift */; };
+		A114AC51235CD607001AF75D /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A114AC4F235CD607001AF75D /* PokemonCell.swift */; };
+		A114AC52235CD607001AF75D /* PokemonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A114AC50235CD607001AF75D /* PokemonCell.xib */; };
+		A11A399D235CB8DF00189C77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A399C235CB8DF00189C77 /* AppDelegate.swift */; };
+		A11A399F235CB8DF00189C77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A399E235CB8DF00189C77 /* SceneDelegate.swift */; };
+		A11A39A1235CB8DF00189C77 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A39A0235CB8DF00189C77 /* HomeViewController.swift */; };
+		A11A39A4235CB8DF00189C77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11A39A2235CB8DF00189C77 /* Main.storyboard */; };
+		A11A39A6235CB8E000189C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11A39A5235CB8E000189C77 /* Assets.xcassets */; };
+		A11A39A9235CB8E000189C77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11A39A7235CB8E000189C77 /* LaunchScreen.storyboard */; };
+		A11A39B2235CB95800189C77 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A39B1235CB95800189C77 /* Color.swift */; };
+		A11A39CA235CBA5D00189C77 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39B7235CBA5D00189C77 /* Montserrat-SemiBoldItalic.ttf */; };
+		A11A39CB235CBA5D00189C77 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39B8235CBA5D00189C77 /* Montserrat-Thin.ttf */; };
+		A11A39CC235CBA5D00189C77 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = A11A39B9235CBA5D00189C77 /* OFL.txt */; };
+		A11A39CD235CBA5D00189C77 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39BA235CBA5D00189C77 /* Montserrat-BoldItalic.ttf */; };
+		A11A39CE235CBA5D00189C77 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39BB235CBA5D00189C77 /* Montserrat-ExtraLight.ttf */; };
+		A11A39CF235CBA5D00189C77 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39BC235CBA5D00189C77 /* Montserrat-ExtraBoldItalic.ttf */; };
+		A11A39D0235CBA5D00189C77 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39BD235CBA5D00189C77 /* Montserrat-MediumItalic.ttf */; };
+		A11A39D1235CBA5D00189C77 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39BE235CBA5D00189C77 /* Montserrat-Bold.ttf */; };
+		A11A39D2235CBA5D00189C77 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39BF235CBA5D00189C77 /* Montserrat-Light.ttf */; };
+		A11A39D3235CBA5D00189C77 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39C0235CBA5D00189C77 /* Montserrat-Regular.ttf */; };
+		A11A39D4235CBA5D00189C77 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39C1235CBA5D00189C77 /* Montserrat-ThinItalic.ttf */; };
+		A11A39D5235CBA5D00189C77 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39C2235CBA5D00189C77 /* Montserrat-ExtraLightItalic.ttf */; };
+		A11A39D6235CBA5D00189C77 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39C3235CBA5D00189C77 /* Montserrat-Medium.ttf */; };
+		A11A39D7235CBA5D00189C77 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39C4235CBA5D00189C77 /* Montserrat-Italic.ttf */; };
+		A11A39D8235CBA5D00189C77 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39C5235CBA5D00189C77 /* Montserrat-SemiBold.ttf */; };
+		A11A39D9235CBA5D00189C77 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39C6235CBA5D00189C77 /* Montserrat-LightItalic.ttf */; };
+		A11A39DA235CBA5D00189C77 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39C7235CBA5D00189C77 /* Montserrat-BlackItalic.ttf */; };
+		A11A39DB235CBA5D00189C77 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39C8235CBA5D00189C77 /* Montserrat-ExtraBold.ttf */; };
+		A11A39DC235CBA5D00189C77 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A11A39C9235CBA5D00189C77 /* Montserrat-Black.ttf */; };
+		A1EE9D0C235CDE10007DCB27 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE9D0A235CDE10007DCB27 /* DetailViewController.swift */; };
+		A1EE9D0D235CDE10007DCB27 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1EE9D0B235CDE10007DCB27 /* DetailViewController.xib */; };
+		A1EE9D0F235CF75C007DCB27 /* DetailSpecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EE9D0E235CF75C007DCB27 /* DetailSpecs.swift */; };
+		A1EE9D12235D014B007DCB27 /* Detail.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1EE9D14235D014B007DCB27 /* Detail.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D5B9606854DD6FD027D4FAA /* Pods-Ibermatica-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ibermatica-iOS.release.xcconfig"; path = "Target Support Files/Pods-Ibermatica-iOS/Pods-Ibermatica-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		A114AC3A235CC319001AF75D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Home.strings; sourceTree = "<group>"; };
+		A114AC3D235CC34A001AF75D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A114AC40235CC3E2001AF75D /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		A114AC42235CC479001AF75D /* PokemonSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonSpecs.swift; sourceTree = "<group>"; };
+		A114AC44235CC663001AF75D /* Pokemon+Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon+Network.swift"; sourceTree = "<group>"; };
+		A114AC47235CC6EF001AF75D /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		A114AC49235CC973001AF75D /* Pokemon+Local.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pokemon+Local.swift"; sourceTree = "<group>"; };
+		A114AC4B235CCEE6001AF75D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A114AC4C235CCEE6001AF75D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A114AC4D235CCEEE001AF75D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Home.strings; sourceTree = "<group>"; };
+		A114AC4F235CD607001AF75D /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		A114AC50235CD607001AF75D /* PokemonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonCell.xib; sourceTree = "<group>"; };
+		A11A3999235CB8DF00189C77 /* Ibermatica-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ibermatica-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11A399C235CB8DF00189C77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A11A399E235CB8DF00189C77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A11A39A0235CB8DF00189C77 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A11A39A5235CB8E000189C77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A11A39AA235CB8E000189C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11A39B1235CB95800189C77 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A11A39B7235CBA5D00189C77 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		A11A39B8235CBA5D00189C77 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		A11A39B9235CBA5D00189C77 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		A11A39BA235CBA5D00189C77 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		A11A39BB235CBA5D00189C77 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		A11A39BC235CBA5D00189C77 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		A11A39BD235CBA5D00189C77 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A11A39BE235CBA5D00189C77 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		A11A39BF235CBA5D00189C77 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		A11A39C0235CBA5D00189C77 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		A11A39C1235CBA5D00189C77 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		A11A39C2235CBA5D00189C77 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		A11A39C3235CBA5D00189C77 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		A11A39C4235CBA5D00189C77 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		A11A39C5235CBA5D00189C77 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		A11A39C6235CBA5D00189C77 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		A11A39C7235CBA5D00189C77 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A11A39C8235CBA5D00189C77 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A11A39C9235CBA5D00189C77 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		A1EE9D0A235CDE10007DCB27 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A1EE9D0B235CDE10007DCB27 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		A1EE9D0E235CF75C007DCB27 /* DetailSpecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSpecs.swift; sourceTree = "<group>"; };
+		A1EE9D13235D014B007DCB27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Detail.strings; sourceTree = "<group>"; };
+		A1EE9D15235D014D007DCB27 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Detail.strings; sourceTree = "<group>"; };
+		B7D9F4D18DC67AE22A16F08B /* Pods_Ibermatica_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ibermatica_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB292C096F7E01BD85790B9E /* Pods-Ibermatica-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ibermatica-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Ibermatica-iOS/Pods-Ibermatica-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A11A3996235CB8DF00189C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C769A667068B551DA75F7DD /* Pods_Ibermatica_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17F4693048726CE0F8A75D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7D9F4D18DC67AE22A16F08B /* Pods_Ibermatica_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A114AC36235CC2E6001AF75D /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				A114AC3B235CC319001AF75D /* Home.strings */,
+				A1EE9D14235D014B007DCB27 /* Detail.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		A114AC3C235CC343001AF75D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A114AC3D235CC34A001AF75D /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A114AC3F235CC3D1001AF75D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A114AC40235CC3E2001AF75D /* NetworkProvider.swift */,
+				A114AC42235CC479001AF75D /* PokemonSpecs.swift */,
+				A114AC44235CC663001AF75D /* Pokemon+Network.swift */,
+				A1EE9D0E235CF75C007DCB27 /* DetailSpecs.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A114AC46235CC6DD001AF75D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A114AC47235CC6EF001AF75D /* Pokemon.swift */,
+				A114AC49235CC973001AF75D /* Pokemon+Local.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A114AC4E235CD5F2001AF75D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A114AC4F235CD607001AF75D /* PokemonCell.swift */,
+				A114AC50235CD607001AF75D /* PokemonCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A114AC53235CD67E001AF75D /* Controllers & Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A11A39A0235CB8DF00189C77 /* HomeViewController.swift */,
+				A11A39A2235CB8DF00189C77 /* Main.storyboard */,
+				A11A39A7235CB8E000189C77 /* LaunchScreen.storyboard */,
+				A1EE9D0A235CDE10007DCB27 /* DetailViewController.swift */,
+				A1EE9D0B235CDE10007DCB27 /* DetailViewController.xib */,
+			);
+			path = "Controllers & Storyboards";
+			sourceTree = "<group>";
+		};
+		A11A3990235CB8DF00189C77 = {
+			isa = PBXGroup;
+			children = (
+				A11A399B235CB8DF00189C77 /* Ibermatica-iOS */,
+				A11A399A235CB8DF00189C77 /* Products */,
+				CE28080BDDD00BA951E05E23 /* Pods */,
+				17F4693048726CE0F8A75D1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A11A399A235CB8DF00189C77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A11A3999235CB8DF00189C77 /* Ibermatica-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A11A399B235CB8DF00189C77 /* Ibermatica-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A11A399C235CB8DF00189C77 /* AppDelegate.swift */,
+				A11A399E235CB8DF00189C77 /* SceneDelegate.swift */,
+				A11A39AA235CB8E000189C77 /* Info.plist */,
+				A114AC46235CC6DD001AF75D /* Model */,
+				A114AC3F235CC3D1001AF75D /* Network */,
+				A114AC3C235CC343001AF75D /* Helpers */,
+				A11A39B0235CB94400189C77 /* Resources */,
+				A114AC53235CD67E001AF75D /* Controllers & Storyboards */,
+				A114AC4E235CD5F2001AF75D /* Cells */,
+			);
+			path = "Ibermatica-iOS";
+			sourceTree = "<group>";
+		};
+		A11A39B0235CB94400189C77 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A11A39A5235CB8E000189C77 /* Assets.xcassets */,
+				A114AC36235CC2E6001AF75D /* Strings */,
+				A11A39B3235CB9DC00189C77 /* Fonts */,
+				A11A39B1235CB95800189C77 /* Color.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A11A39B3235CB9DC00189C77 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A11A39B6235CBA5200189C77 /* Montserrat */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A11A39B6235CBA5200189C77 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				A11A39C9235CBA5D00189C77 /* Montserrat-Black.ttf */,
+				A11A39C7235CBA5D00189C77 /* Montserrat-BlackItalic.ttf */,
+				A11A39BE235CBA5D00189C77 /* Montserrat-Bold.ttf */,
+				A11A39BA235CBA5D00189C77 /* Montserrat-BoldItalic.ttf */,
+				A11A39C8235CBA5D00189C77 /* Montserrat-ExtraBold.ttf */,
+				A11A39BC235CBA5D00189C77 /* Montserrat-ExtraBoldItalic.ttf */,
+				A11A39BB235CBA5D00189C77 /* Montserrat-ExtraLight.ttf */,
+				A11A39C2235CBA5D00189C77 /* Montserrat-ExtraLightItalic.ttf */,
+				A11A39C4235CBA5D00189C77 /* Montserrat-Italic.ttf */,
+				A11A39BF235CBA5D00189C77 /* Montserrat-Light.ttf */,
+				A11A39C6235CBA5D00189C77 /* Montserrat-LightItalic.ttf */,
+				A11A39C3235CBA5D00189C77 /* Montserrat-Medium.ttf */,
+				A11A39BD235CBA5D00189C77 /* Montserrat-MediumItalic.ttf */,
+				A11A39C0235CBA5D00189C77 /* Montserrat-Regular.ttf */,
+				A11A39C5235CBA5D00189C77 /* Montserrat-SemiBold.ttf */,
+				A11A39B7235CBA5D00189C77 /* Montserrat-SemiBoldItalic.ttf */,
+				A11A39B8235CBA5D00189C77 /* Montserrat-Thin.ttf */,
+				A11A39C1235CBA5D00189C77 /* Montserrat-ThinItalic.ttf */,
+				A11A39B9235CBA5D00189C77 /* OFL.txt */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		CE28080BDDD00BA951E05E23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB292C096F7E01BD85790B9E /* Pods-Ibermatica-iOS.debug.xcconfig */,
+				6D5B9606854DD6FD027D4FAA /* Pods-Ibermatica-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A11A3998235CB8DF00189C77 /* Ibermatica-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A11A39AD235CB8E000189C77 /* Build configuration list for PBXNativeTarget "Ibermatica-iOS" */;
+			buildPhases = (
+				BDCA34D8F98CEE2C5C3DA44D /* [CP] Check Pods Manifest.lock */,
+				A11A3995235CB8DF00189C77 /* Sources */,
+				A11A3996235CB8DF00189C77 /* Frameworks */,
+				A11A3997235CB8DF00189C77 /* Resources */,
+				372AF127A30C623FEF6EFAAC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ibermatica-iOS";
+			productName = "Ibermatica-iOS";
+			productReference = A11A3999235CB8DF00189C77 /* Ibermatica-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A11A3991235CB8DF00189C77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Albert;
+				TargetAttributes = {
+					A11A3998235CB8DF00189C77 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = A11A3994235CB8DF00189C77 /* Build configuration list for PBXProject "Ibermatica-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = A11A3990235CB8DF00189C77;
+			productRefGroup = A11A399A235CB8DF00189C77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A11A3998235CB8DF00189C77 /* Ibermatica-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A11A3997235CB8DF00189C77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A114AC39235CC319001AF75D /* Home.strings in Resources */,
+				A11A39D2235CBA5D00189C77 /* Montserrat-Light.ttf in Resources */,
+				A11A39D0235CBA5D00189C77 /* Montserrat-MediumItalic.ttf in Resources */,
+				A11A39D5235CBA5D00189C77 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				A11A39CF235CBA5D00189C77 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				A11A39CC235CBA5D00189C77 /* OFL.txt in Resources */,
+				A11A39D7235CBA5D00189C77 /* Montserrat-Italic.ttf in Resources */,
+				A11A39D8235CBA5D00189C77 /* Montserrat-SemiBold.ttf in Resources */,
+				A11A39DC235CBA5D00189C77 /* Montserrat-Black.ttf in Resources */,
+				A11A39CD235CBA5D00189C77 /* Montserrat-BoldItalic.ttf in Resources */,
+				A11A39CB235CBA5D00189C77 /* Montserrat-Thin.ttf in Resources */,
+				A1EE9D12235D014B007DCB27 /* Detail.strings in Resources */,
+				A11A39D3235CBA5D00189C77 /* Montserrat-Regular.ttf in Resources */,
+				A1EE9D0D235CDE10007DCB27 /* DetailViewController.xib in Resources */,
+				A11A39A9235CB8E000189C77 /* LaunchScreen.storyboard in Resources */,
+				A11A39D4235CBA5D00189C77 /* Montserrat-ThinItalic.ttf in Resources */,
+				A11A39A6235CB8E000189C77 /* Assets.xcassets in Resources */,
+				A11A39DA235CBA5D00189C77 /* Montserrat-BlackItalic.ttf in Resources */,
+				A11A39CE235CBA5D00189C77 /* Montserrat-ExtraLight.ttf in Resources */,
+				A114AC52235CD607001AF75D /* PokemonCell.xib in Resources */,
+				A11A39D9235CBA5D00189C77 /* Montserrat-LightItalic.ttf in Resources */,
+				A11A39CA235CBA5D00189C77 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				A11A39D1235CBA5D00189C77 /* Montserrat-Bold.ttf in Resources */,
+				A11A39D6235CBA5D00189C77 /* Montserrat-Medium.ttf in Resources */,
+				A11A39DB235CBA5D00189C77 /* Montserrat-ExtraBold.ttf in Resources */,
+				A11A39A4235CB8DF00189C77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		372AF127A30C623FEF6EFAAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ibermatica-iOS/Pods-Ibermatica-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ibermatica-iOS/Pods-Ibermatica-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ibermatica-iOS/Pods-Ibermatica-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDCA34D8F98CEE2C5C3DA44D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ibermatica-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A11A3995235CB8DF00189C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A114AC3E235CC34A001AF75D /* Extensions.swift in Sources */,
+				A11A39A1235CB8DF00189C77 /* HomeViewController.swift in Sources */,
+				A114AC51235CD607001AF75D /* PokemonCell.swift in Sources */,
+				A1EE9D0C235CDE10007DCB27 /* DetailViewController.swift in Sources */,
+				A1EE9D0F235CF75C007DCB27 /* DetailSpecs.swift in Sources */,
+				A11A39B2235CB95800189C77 /* Color.swift in Sources */,
+				A11A399D235CB8DF00189C77 /* AppDelegate.swift in Sources */,
+				A11A399F235CB8DF00189C77 /* SceneDelegate.swift in Sources */,
+				A114AC48235CC6EF001AF75D /* Pokemon.swift in Sources */,
+				A114AC41235CC3E2001AF75D /* NetworkProvider.swift in Sources */,
+				A114AC4A235CC973001AF75D /* Pokemon+Local.swift in Sources */,
+				A114AC45235CC663001AF75D /* Pokemon+Network.swift in Sources */,
+				A114AC43235CC479001AF75D /* PokemonSpecs.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A114AC3B235CC319001AF75D /* Home.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A114AC3A235CC319001AF75D /* en */,
+				A114AC4D235CCEEE001AF75D /* es */,
+			);
+			name = Home.strings;
+			sourceTree = "<group>";
+		};
+		A11A39A2235CB8DF00189C77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A114AC4B235CCEE6001AF75D /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A11A39A7235CB8E000189C77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A114AC4C235CCEE6001AF75D /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1EE9D14235D014B007DCB27 /* Detail.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1EE9D13235D014B007DCB27 /* en */,
+				A1EE9D15235D014D007DCB27 /* es */,
+			);
+			name = Detail.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A11A39AB235CB8E000189C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A11A39AC235CB8E000189C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A11A39AE235CB8E000189C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB292C096F7E01BD85790B9E /* Pods-Ibermatica-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KKL867W4B;
+				INFOPLIST_FILE = "Ibermatica-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.albert.Ibermatica-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A11A39AF235CB8E000189C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D5B9606854DD6FD027D4FAA /* Pods-Ibermatica-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KKL867W4B;
+				INFOPLIST_FILE = "Ibermatica-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.albert.Ibermatica-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A11A3994235CB8DF00189C77 /* Build configuration list for PBXProject "Ibermatica-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11A39AB235CB8E000189C77 /* Debug */,
+				A11A39AC235CB8E000189C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A11A39AD235CB8E000189C77 /* Build configuration list for PBXNativeTarget "Ibermatica-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A11A39AE235CB8E000189C77 /* Debug */,
+				A11A39AF235CB8E000189C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A11A3991235CB8DF00189C77 /* Project object */;
+}

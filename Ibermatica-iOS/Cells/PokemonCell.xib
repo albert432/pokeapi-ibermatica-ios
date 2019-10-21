@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="79" id="KGk-i7-Jjw" customClass="PokemonCell" customModule="Ibermatica_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="323" height="79"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="323" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disclosure" translatesAutoresizingMaskIntoConstraints="NO" id="5rA-1O-zkT">
+                        <rect key="frame" x="293" y="29.5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="1de-Sy-rlf"/>
+                            <constraint firstAttribute="height" constant="20" id="PPs-M8-jd9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T22-wj-CkQ" userLabel="Name Label">
+                        <rect key="frame" x="10" y="24.5" width="273" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="LxL-yo-ITZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="T22-wj-CkQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="D0o-45-8af"/>
+                    <constraint firstItem="5rA-1O-zkT" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="IfZ-qV-f71"/>
+                    <constraint firstAttribute="trailing" secondItem="5rA-1O-zkT" secondAttribute="trailing" constant="10" id="dlN-cC-qGB"/>
+                    <constraint firstItem="T22-wj-CkQ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="n53-Gm-NMJ"/>
+                    <constraint firstItem="5rA-1O-zkT" firstAttribute="leading" secondItem="T22-wj-CkQ" secondAttribute="trailing" constant="10" id="uo5-RW-iOJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="disclosureImageView" destination="5rA-1O-zkT" id="Eye-41-WCt"/>
+                <outlet property="nameLabel" destination="T22-wj-CkQ" id="LVW-v9-7k9"/>
+            </connections>
+            <point key="canvasLocation" x="139.85507246376812" y="128.23660714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="disclosure" width="512" height="512"/>
+    </resources>
+</document>

@@ -1,0 +1,5 @@
+
+"no.pokemons.button" = "Ooops! It seems you have not any pokemon available. Click here to download them.";
+"pokemons.load.success" = "Pokemons were loaded successfully!";
+"pokemons.load.failure" = "Something went wrong. Please try it later.";
+"searchbar.placeholder" = "Search pokemon";

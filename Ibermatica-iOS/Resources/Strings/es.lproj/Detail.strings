@@ -1,0 +1,4 @@
+"error.getting.detail" = "No se ha podido obtener el detalle sobre este pokemon. Inténtalo más tarde.";
+"height.label" = "Altura:";
+"weight.label" = "Peso:";
+"abilities.label" = "Habilidades";

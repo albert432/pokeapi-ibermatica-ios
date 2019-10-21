@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.9.0)
+  - ImageLoader (0.15.0)
+  - Loaf (0.5.0)
+  - Realm (3.19.1):
+    - Realm/Headers (= 3.19.1)
+  - Realm/Headers (3.19.1)
+  - RealmSwift (3.19.1):
+    - Realm (= 3.19.1)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ImageLoader
+  - Loaf
+  - RealmSwift
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ImageLoader
+    - Loaf
+    - Realm
+    - RealmSwift
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  ImageLoader: e0635d52020d64dc7687e3a3b14dc53212ac0442
+  Loaf: 0800b444431366bc395d54267975d4ad4ad5c99c
+  Realm: fb377747e694c7deb62d402400454134fe321bee
+  RealmSwift: 1302b0ab60f3105a2b214a735eeb0938607cf16b
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 8db59df16e8be2d252d36aad783cf1b5771f8fcc
+
+COCOAPODS: 1.8.3

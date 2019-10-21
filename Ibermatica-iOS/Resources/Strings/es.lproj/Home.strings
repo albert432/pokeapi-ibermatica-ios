@@ -1,0 +1,4 @@
+"no.pokemons.button" = "Ooops! Parece que no tienes ningún pokemon descargado. Clica aquí para descargarlos.";
+"pokemons.load.success" = "Pokemons descargados correctamente!";
+"pokemons.load.failure" = "Algo ha ido mal, por foavor inténtalo más tarde";
+"searchbar.placeholder" = "Buscar pokemon";
